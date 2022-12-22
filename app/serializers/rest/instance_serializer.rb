@@ -12,7 +12,7 @@ class REST::InstanceSerializer < ActiveModel::Serializer
   attributes :domain, :title, :version, :source_url, :description,
              :usage, :thumbnail, :languages, :configuration,
              :registrations,
-             :max_chars
+             :max_toot_chars
 
   has_one :contact, serializer: ContactSerializer
   has_many :rules, serializer: REST::RuleSerializer
@@ -106,7 +106,7 @@ class REST::InstanceSerializer < ActiveModel::Serializer
     @markdown ||= Redcarpet::Markdown.new(Redcarpet::Render::HTML, no_images: true)
   end
 
-  def max_chars
+  def max_toot_chars
     StatusLengthValidator::MAX_CHARS
   end
 end
