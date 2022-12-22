@@ -4,30 +4,24 @@
   <img alt="Mastodon" src="./lib/assets/wordmark.light.png?raw=true" height="34">
 </picture></h1>
 
----
-
 # Fork of Mastodon
 This is a fork of Mastodon, with some stuff applied on it.
 
-# Stability
+## Stability
 Stability of this fork is not guaranteed.
 Expect this to break in weird ways sometimes.
 
 **Use at your own risk.**
 
-# Changes
+## Changes
 - Changed source code link to this repo
 - [Configurable character limits](https://github.com/mastodon/mastodon/pull/5697)
 
-# Usage
-- <https://micro.jacksonchen666.com> (my instance btw)
+## Fork Usage
+- ~~<https://micro.jacksonchen666.com> (my instance btw)~~
 
-
-## Contributing
-
-Mastodon is **free, open-source software** licensed under **AGPLv3**.
-
-You can open issues for bugs you've found or features you think are missing. You can also submit pull requests to this repository or submit translations using Crowdin. To get started, take a look at [CONTRIBUTING.md](CONTRIBUTING.md).
+## Instructions
+Not yet ready...
 
 ## License
 
