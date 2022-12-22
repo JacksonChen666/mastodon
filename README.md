@@ -15,7 +15,7 @@ Expect this to break in weird ways sometimes.
 
 ## Changes
 - Changed source code link to this repo
-- [Configurable character limits](https://github.com/mastodon/mastodon/pull/5697)
+- [Configurable character limits](https://github.com/mastodon/mastodon/pull/5697) (`feature/configurable-max-chars` branch)
 
 ## Fork Usage
 - ~~<https://micro.jacksonchen666.com> (my instance btw)~~
